@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bgapp"
+    tools:context=".MainActivity">
+
+
+
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_marginTop="70dp"
+        android:layout_width="283dp"
+        android:layout_height="156dp"
+        android:layout_gravity="center"
+        android:src="@drawable/logo"
+        android:background="@drawable/bgquestion" />
+
+    <TextView
+        android:id="@+id/textQuestion"
+        android:layout_marginTop="40dp"
+        android:layout_gravity="center"
+        android:textColor="#FFF"
+        android:textSize="28sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Topics"/>
+
+    <Button
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:id="@+id/animalBtn"
+        android:textAllCaps="false"
+        android:text="Animals"
+        android:textSize="28sp"
+        android:background="@drawable/bgbtn"
+        android:layout_width="290dp"
+        android:layout_height="70dp" />
+    <Button
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:id="@+id/logoBtn"
+        android:textAllCaps="false"
+        android:text="Logos"
+        android:paddingBottom="10dp"
+        android:textSize="28sp"
+        android:background="@drawable/bgbtn"
+        android:layout_width="290dp"
+        android:layout_height="70dp" />
+
+    <Button
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:id="@+id/flagBtn"
+        android:textAllCaps="false"
+        android:text="Flags"
+        android:paddingBottom="10dp"
+        android:textSize="28sp"
+        android:background="@drawable/bgbtn"
+        android:layout_width="290dp"
+        android:layout_height="70dp" />
+
+
+    <Button
+        android:id="@+id/backBtn"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="left"
+        android:textSize="22sp"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bgbtn"
+        android:textAllCaps="false"
+        android:text="Back"/>
+
+</LinearLayout>
