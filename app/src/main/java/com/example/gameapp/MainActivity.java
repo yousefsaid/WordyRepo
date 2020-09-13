@@ -13,6 +13,7 @@ import android.widget.EditText;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
+import com.example.gameapp.Common.Common;
 
 import java.util.Random;
 
@@ -20,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
 
     private int presCounter = 0;
     private int maxPresCounter = 8;
-    private String[] keys = {"D", "C" , "K" , "U", "H"};
+    private String[] keys;
     private String textAnswer = "DUCK";
     TextView textScreen, textQuestion, textTitle;
     Animation smallbigforth;
